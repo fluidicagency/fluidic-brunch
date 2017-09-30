@@ -1,0 +1,33 @@
+{
+  "name": "brunch-app",
+  "description": "Brunch.io application",
+  "private": true,
+  "author": "Brunch",
+  "version": "0.0.1",
+  "repository": "",
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "rm -rf public; rm -rf dist; brunch build --production; brunch build -e release"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "babel-brunch": "~6.0",
+    "babel-preset-latest": "^6",
+    "browser-sync-brunch": "0.0.9",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "coffee-script-brunch": "^2.10.2",
+    "copyfilemon-brunch": "^3.3.0",
+    "font-awesome": "^4.7.0",
+    "postcss-brunch": "^2.1.0",
+    "postcss-uncss": "^0.15.0",
+    "sass-brunch": "^2.10.4",
+    "uglify-js-brunch": "^2",
+    "uncss": "^0.15.0"
+  }
+}
